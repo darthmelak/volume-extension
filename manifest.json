@@ -1,0 +1,14 @@
+{
+    "name": "Volume slider",
+    "description": "A volume slider for pages with media missing it! (also basically any page playing media with video/audio tags)",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
